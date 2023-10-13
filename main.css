@@ -1,3 +1,77 @@
 body {
   background-color: #F1F0E8;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  
+  width: 400px;
+  color: #ffffff;
+  border: 2px solid #000000;  
+  margin: auto;
+
+}
+
+.output {
+  background-color: #000000;
+  color: #ffffff;
+  width: 400px;
+  text-align: right;
+  font-family: monospace;
+  font-size: 30px;
+  height: 3rem;
+  padding-right: 2px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-bottom: .5;
+  background-color: #d8d9db;
+  color: #000000;
+  border: 2px black solid;
+
+
+}
+
+.function {
+  color: #ffffff;
+  background-color: #df974c;
+
+}
+
+
+#clear {
+  width: 50%;
+}
+
+.btn {
+  width: 25%;
+  font-size: 30px;
+  border: 1px black solid;
+
+
+}
+
+#zero {
+  width: 75%;
+}
+
+.btn:hover {
+  background-color: #ebebeb;
+}
+
+
+.btn.function:hover {
+  background-color: #dfb07e;
+}
+
+.btn.function:active {
+  background-color: #dd8d37;
+}
+
+.btn:active {
+  background-color: red;
+}
